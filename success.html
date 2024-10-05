@@ -5,23 +5,29 @@
     <link rel="icon" type="image/x-icon" href="images/party.jpg">
     <style>
         body {
-            background-color: blue;
             height: 100vh;
-            margin: auto;
-            margin-top: 25%;
-            text-align: center;
+            margin: 0px;
         }
     </style>
 </head>
 
 <body>
-    <img src="shrimpleasthat.mp4">
+    <video loop id="shrimple">
+        <source src="images/shrimpleasthat.mp4" type="video/mp4">
+    </video>
     <!--<audio autoplay>
         <source src="images/cat-laugh-meme-1.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>!-->
-    <audio src="images/kids-cheering-sound-effect.mp3" style="display: none;" autoplay></audio>
+    <audio loop id="cheer">
+        <source src="images/kids-cheering-sound-effect.mp3" type="audio/mp3">
+    </audio>
 
 </body>
+
+<script type="text/javascript">
+    document.getElementById("cheer").play();
+    document.getElementById("shrimple").play();
+</script>
 
 </html>
