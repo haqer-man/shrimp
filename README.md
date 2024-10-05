@@ -1,1 +1,1 @@
-[https://haqer-man.github.io/shrimp](url)
+[https://haqer-man.github.io/shrimp/index.html](url)
