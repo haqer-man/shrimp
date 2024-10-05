@@ -4,12 +4,15 @@
     <title>L bozo</title>
     <link rel="icon" type="image/x-icon" href="images/laugh.jpg">
     <style>
+        img {
+            width: 100vw;
+            max-height: 80vh;
+            margin: auto;
+        }
         body {
             background-color: blue;
-            height: 100vh;
-            width: 100vw;
-            margin: auto;
-            margin-top: 25%;
+        }
+        .retry {
             text-align: center;
         }
     </style>
@@ -24,7 +27,7 @@
     <audio id="laugh">
         <source src="images/cat-laugh-meme-1.mp3" type="audio/mp3">
     </audio>
-    <form action="index.html">
+    <form class="retry" action="index.html">
         <button>Try again?</button>
     </form>
 

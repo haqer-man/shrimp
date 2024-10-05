@@ -5,9 +5,15 @@
     <link rel="icon" type="image/x-icon" href="images/party.jpg">
     <style>
         body {
-            height: auto;
+            background-color: black;
+        }
+        video {
             margin: auto;
-            width: 100vw;
+            width:100%;
+            max-height:93vh;
+        }
+        .retry {
+            text-align: center;
         }
     </style>
 </head>
@@ -23,7 +29,7 @@
     <audio loop id="cheer">
         <source src="images/kids-cheering-sound-effect.mp3" type="audio/mp3">
     </audio>
-    <form action="index.html">
+    <form class="retry" action="index.html">
         <button>Try again?</button>
     </form>
 
