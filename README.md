@@ -1,1 +1,1 @@
-(https://haqer-man.github.io/shrimp/index.html)[link]
+(https://haqer-man.github.io/shrimp/)[link]
