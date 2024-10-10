@@ -19,14 +19,11 @@
 </head>
 
 <body>
-    <video loop id="shrimple">
+    <video loop autplay muted id="shrimple">
         <source src="images/shrimpleasthat.mp4" type="video/mp4">
     </video>
-    <!--<audio autoplay>
-        <source src="images/cat-laugh-meme-1.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>!-->
-    <audio loop id="cheer">
+
+    <audio loop autoplay muted id="cheer">
         <source src="images/kids-cheering-sound-effect.mp3" type="audio/mp3">
     </audio>
     <form class="retry" action="index.html">
@@ -36,8 +33,9 @@
 </body>
 
 <script type="text/javascript">
-    document.getElementById("cheer").play();
-    document.getElementById("shrimple").play();
+    //document.getElementById("shrimple").play();
+    document.getElementById("cheer").muted = false;
+    document.getElementById("shrimple").muted = false;
 </script>
 
 </html>
