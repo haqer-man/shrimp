@@ -4,6 +4,7 @@
     <title>shrimp?</title>
     <link rel="icon" type="image/x-icon" href="images/eyebrow.jpg">
     <style>
+        body {background-color: black;}
         img.main {
             max-height: 70vh;
             width: 100%;
@@ -19,7 +20,21 @@
             display: grid;
             text-align: center;
             grid-template-columns: auto auto;
-            margin: auto;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #04AA6D;
+            border: 0px;
+            transition-duration: 0.4s;
+            border-radius: 8px;
+            font-size: 20px;
+            padding: 14px 40px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: black;
+            color: white;
+            border: 2px solid #04AA6D;
         }
     </style>
 </head>
@@ -29,10 +44,10 @@
 
     <div class="buttons">
         <form action="fail.html">
-            <button>Yes</button>
+            <button class="button"><b>Yes</b></button>
         </form>
         <form action="success.html">
-            <button>No</button>
+            <button class="button"><b>No</b></button>
         </form>
     </div>
 
