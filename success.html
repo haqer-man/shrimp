@@ -34,11 +34,11 @@
 </head>
 
 <body>
-    <video loop autoplay muted id="shrimple">
+    <video loop id="shrimple">
         <source src="images/shrimpleasthat.mp4" type="video/mp4">
     </video>
 
-    <audio loop autoplay muted id="cheer">
+    <audio loop muted id="cheer">
         <source src="images/kids-cheering-sound-effect.mp3" type="audio/mp3">
     </audio>
     <form class="retry" action="index.html">
@@ -48,7 +48,7 @@
 </body>
 
 <script type="text/javascript">
-    document.querySelectorAll("video").play();
+    document.getElementById("shrimple").play();
     document.getElementById("cheer").muted = false;
     document.getElementById("shrimple").muted = false;
 </script>
