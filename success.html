@@ -52,11 +52,15 @@
     document.getElementById("shrimple").muted = false;
     document.getElementById("cheer").muted = false;
 
-    var scalar = 2;
-    var pineapple = confetti.shapeFromText({ text: '🍍', scalar });
+    var scalar = 10;
+    let happy = confetti.shapeFromText({ text: '😄', scalar });
+    let fire = confetti.shapeFromText({ text: '🔥', scalar });
+    let conf = confetti.shapeFromText({ text: '🎊', scalar });
+    let firework1 = confetti.shapeFromText({text: '🎆', scalar });
+    let firework2 = confetti.shapeFromText({text: '🎇', scalar });
 
     confetti({
-      shapes: [pineapple],
+      shapes: [happy, fire, conf, firework1, firework2],
       scalar
     });
 </script>
